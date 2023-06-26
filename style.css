@@ -1,0 +1,92 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+   height: 100vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /* overflow: hidden; */
+}
+
+body {
+   background-image: url(images/4090.webp);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+   font-size: 44px;
+   padding: 20px 0;
+}
+
+input {
+   color: black;
+   height: 34px;
+   width: 160px;
+   text-align: center;
+   font-weight: 600;
+   border-radius: 5px;
+   border: 2px solid lightgray;
+}
+
+input:hover {
+   cursor: pointer;
+}
+
+button {
+   width: 170px;
+   height: 40px;
+   color: black;
+   font-weight: 600;
+   border-radius: 7px;
+}
+
+button:hover {
+   cursor: pointer;
+   background-color: white;
+   border: 2px solid lightgray;
+}
+
+input[type="date"],
+button {
+   margin: 5px auto;
+   display: flex;
+   display: row;
+   align-items: center;
+   justify-content: center;
+}
+
+button {
+   margin: 25px auto;
+   display: flex;
+   display: row;
+   align-items: center;
+   justify-content: center;
+}
+
+h2 {
+   color: rgb(241, 241, 252);
+   text-align: center;
+}
+
+h3 {
+   font-size: 44px;
+   margin-left: 20px;
+   color: rgb(239, 239, 247);
+   font-size: 22px;
+}
+
+img {
+   display: block;
+   height: 230px;
+   margin: 0 auto;
+}
+
+iframe {
+   display: block;
+   height: 300px;
+   margin: 10px auto;
+}
